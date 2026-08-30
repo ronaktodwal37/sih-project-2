@@ -1,0 +1,13 @@
+{
+  "name": "jharkhand-societal-innovation-portal",
+  "version": "1.0.0",
+  "description": "AI-powered Societal Innovation Collaboration Portal for Government of Jharkhand - SIH Problem Statement 26043",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  }
+}
