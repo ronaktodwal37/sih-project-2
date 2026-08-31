@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext.jsx';
 import Header from '../components/layout/Header.jsx';
 
 export default function DashboardLayout({ sidebarLinks }) {
-  const { user } = useAuth();
+  // const { user } = useAuth();
 
   return (
     <div className="min-h-screen bg-gray-50">
