@@ -14,17 +14,17 @@ export default function AdminDashboard() {
 
   useEffect(() => {
     const load = async () => {
-    //   try {
-    //     const res = await fetch('/api/admin/dashboard');
-    //     if (!res.ok) throw new Error('Failed');
-    //     const data = await res.json();
-    //     setStats(data.stats || data);
-    //   } catch {
-    //     setStats(DEMO_ADMIN_STATS);
-    //     setIsDemo(true);
-    //   } finally {
-    //     setLoading(false);
-    //   }
+      try {
+        const res = await fetch('/api/admin/dashboard');
+        if (!res.ok) throw new Error('Failed');
+        const data = await res.json();
+        setStats(data.stats || data);
+      } catch {
+        setStats(DEMO_ADMIN_STATS);
+        setIsDemo(true);
+      } finally {
+        setLoading(false);
+      }
     };
     // load();
   }, []);
