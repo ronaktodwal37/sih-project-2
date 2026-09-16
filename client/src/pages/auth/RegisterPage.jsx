@@ -29,7 +29,7 @@ const roleOptions = [
   // { value: ROLES.CITIZEN, label: 'Citizen' },
   // { value: ROLES.UNIVERSITY, label: 'University Representative' },
   // { value: ROLES.FACULTY, label: 'Faculty' },
-  { value: ROLES.STUDENT, label: 'Student' },
+  // { value: ROLES.STUDENT, label: 'Student' },
   { value: ROLES.INDUSTRY, label: 'Industry / CSR' },
 ];
 
