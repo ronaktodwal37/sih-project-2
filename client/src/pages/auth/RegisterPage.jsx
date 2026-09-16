@@ -38,10 +38,10 @@ export default function RegisterPage() {
   // const navigate = useNavigate();
   // const [error, setError] = useState('');
 
-  const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
-    resolver: zodResolver(schema),
-    defaultValues: { role: ROLES.CITIZEN },
-  });
+  // const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
+  //   resolver: zodResolver(schema),
+  //   defaultValues: { role: ROLES.CITIZEN },
+  // });
 
   const onSubmit = async (data) => {
     setError('');
