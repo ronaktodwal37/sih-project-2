@@ -15,7 +15,7 @@
 // });
 
 export default function LoginPage() {
-  // const { login, getDashboardPath } = useAuth();
+  const { login, getDashboardPath } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
 
