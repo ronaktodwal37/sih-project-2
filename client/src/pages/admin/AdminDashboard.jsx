@@ -34,7 +34,7 @@ export default function AdminDashboard() {
   return (
     <div>
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Admin Dashboard</h1>
+        {/* <h1 className="text-2xl font-bold text-gray-900">Admin Dashboard</h1> */}
         <p className="text-gray-600 mt-1">System overview and platform management.</p>
         {isDemo && <Badge color="accent" className="mt-2">{t('common.demoData')}</Badge>}
       </div>
