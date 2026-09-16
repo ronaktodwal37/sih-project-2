@@ -41,7 +41,7 @@ export default function AdminDashboard() {
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
         {/* <StatCard label="Total Users" value={stats?.totalUsers} icon={Users} /> */}
-        <StatCard label="Total Challenges" value={stats?.totalChallenges} icon={FileText} />
+        {/* <StatCard label="Total Challenges" value={stats?.totalChallenges} icon={FileText} /> */}
         <StatCard label="Total Projects" value={stats?.totalProjects} icon={FolderKanban} />
         <StatCard label="Active Sessions" value="12" icon={Activity} />
       </div>
