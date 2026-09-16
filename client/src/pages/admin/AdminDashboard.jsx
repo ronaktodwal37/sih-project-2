@@ -29,7 +29,7 @@ export default function AdminDashboard() {
     load();
   }, []);
 
-  // if (loading) return <LoadingSpinner className="py-16" />;
+  if (loading) return <LoadingSpinner className="py-16" />;
 
   return (
     <div>
