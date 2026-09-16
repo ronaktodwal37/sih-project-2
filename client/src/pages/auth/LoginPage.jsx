@@ -28,7 +28,7 @@ export default function LoginPage() {
     setError('');
     try {
       await login(data);
-      const from = location.state?.from?.pathname;
+      // const from = location.state?.from?.pathname;
       navigate(from || getDashboardPath(), { replace: true });
     } catch (err) {
       setError(err.message || 'Invalid email or password');
