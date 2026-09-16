@@ -13,7 +13,7 @@ export default function AdminDashboard() {
   const [isDemo, setIsDemo] = useState(false);
 
   useEffect(() => {
-    // const load = async () => {
+    const load = async () => {
     //   try {
     //     const res = await fetch('/api/admin/dashboard');
     //     if (!res.ok) throw new Error('Failed');
@@ -25,7 +25,7 @@ export default function AdminDashboard() {
     //   } finally {
     //     setLoading(false);
     //   }
-    // };
+    };
     // load();
   }, []);
 
