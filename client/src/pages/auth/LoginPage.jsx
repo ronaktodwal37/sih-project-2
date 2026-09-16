@@ -9,10 +9,10 @@
 // import Button from '../../components/ui/Button.jsx';
 // import Card from '../../components/ui/Card.jsx';
 
-// const schema = z.object({
-//   email: z.string().email('Invalid email address'),
+const schema = z.object({
+  // email: z.string().email('Invalid email address'),
 //   password: z.string().min(1, 'Password is required'),
-// });
+});
 
 export default function LoginPage() {
   const { login, getDashboardPath } = useAuth();
