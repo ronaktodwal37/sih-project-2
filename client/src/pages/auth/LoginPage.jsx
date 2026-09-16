@@ -18,7 +18,7 @@ export default function LoginPage() {
   // const { login, getDashboardPath } = useAuth();
   // const navigate = useNavigate();
   // const location = useLocation();
-  const [error, setError] = useState('');
+  // const [error, setError] = useState('');
 
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
     resolver: zodResolver(schema),
