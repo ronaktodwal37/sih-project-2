@@ -26,7 +26,7 @@ export default function AdminDashboard() {
     //     setLoading(false);
     //   }
     // };
-    load();
+    // load();
   }, []);
 
   if (loading) return <LoadingSpinner className="py-16" />;
