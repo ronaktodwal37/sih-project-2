@@ -43,15 +43,15 @@ export default function RegisterPage() {
     defaultValues: { role: ROLES.CITIZEN },
   });
 
-  // const onSubmit = async (data) => {
-  //   setError('');
-  //   try {
-  //     await registerUser(data);
-  //     navigate(getDashboardPath(), { replace: true });
-  //   } catch (err) {
-  //     setError(err.message || 'Registration failed. Please try again.');
-  //   }
-  // };
+  const onSubmit = async (data) => {
+    setError('');
+    try {
+      await registerUser(data);
+      navigate(getDashboardPath(), { replace: true });
+    } catch (err) {
+      setError(err.message || 'Registration failed. Please try again.');
+    }
+  };
 
   return (
     <div className="max-w-md mx-auto px-4 py-12">
