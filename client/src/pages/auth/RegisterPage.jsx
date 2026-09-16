@@ -35,7 +35,7 @@
 
 export default function RegisterPage() {
   // const { register: registerUser, getDashboardPath } = useAuth();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [error, setError] = useState('');
 
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
