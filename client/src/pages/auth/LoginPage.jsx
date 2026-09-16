@@ -7,7 +7,7 @@ import { useAuth } from '../../context/AuthContext.jsx';
 import { t } from '../../i18n/index.js';
 import Input from '../../components/ui/Input.jsx';
 import Button from '../../components/ui/Button.jsx';
-import Card from '../../components/ui/Card.jsx';
+// import Card from '../../components/ui/Card.jsx';
 
 const schema = z.object({
   email: z.string().email('Invalid email address'),
