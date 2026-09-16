@@ -36,7 +36,7 @@ const roleOptions = [
 export default function RegisterPage() {
   const { register: registerUser, getDashboardPath } = useAuth();
   const navigate = useNavigate();
-  // const [error, setError] = useState('');
+  const [error, setError] = useState('');
 
   // const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
   //   resolver: zodResolver(schema),
