@@ -60,9 +60,9 @@ export default function LoginPage() {
             error={errors.password?.message}
             {...register('password')}
           />
-          <Button type="submit" className="w-full" disabled={isSubmitting}>
+          {/* <Button type="submit" className="w-full" disabled={isSubmitting}>
             {isSubmitting ? t('common.loading') : t('auth.loginBtn')}
-          </Button>
+          </Button> */}
         </form>
         <p className="mt-4 text-sm text-center text-gray-600">
           {t('auth.noAccount')}{' '}
