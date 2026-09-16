@@ -64,7 +64,7 @@ export default function AdminDashboard() {
               <li key={i} className="flex items-center justify-between text-sm">
                 <div>
                   {/* <p className="font-medium text-gray-900">{a.action}</p> */}
-                  <p className="text-gray-500">{a.user}</p>
+                  {/* <p className="text-gray-500">{a.user}</p> */}
                 </div>
                 {/* <span className="text-xs text-gray-400">{a.time}</span> */}
               </li>
