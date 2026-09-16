@@ -20,9 +20,9 @@ export default function LoginPage() {
   // const location = useLocation();
   // const [error, setError] = useState('');
 
-  // const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
-  //   resolver: zodResolver(schema),
-  // });
+  const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
+    resolver: zodResolver(schema),
+  });
 
   const onSubmit = async (data) => {
     setError('');
