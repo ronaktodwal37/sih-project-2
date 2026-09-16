@@ -17,9 +17,8 @@
 export default function LoginPage() {
   // const { login, getDashboardPath } = useAuth();
   // const navigate = useNavigate();
-  // const location = useLocation();git add . 
-git commit -m "commit"
-git push
+  const location = useLocation();
+
   const [error, setError] = useState('');
 
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
