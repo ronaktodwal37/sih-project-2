@@ -9,7 +9,7 @@
 // import Input from '../../components/ui/Input.jsx';
 // import Select from '../../components/ui/Select.jsx';
 // import Button from '../../components/ui/Button.jsx';
-import Card from '../../components/ui/Card.jsx';
+// import Card from '../../components/ui/Card.jsx';
 
 const schema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
