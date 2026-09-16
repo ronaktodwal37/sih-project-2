@@ -8,7 +8,7 @@ import LoadingSpinner from '../../components/ui/LoadingSpinner.jsx';
 import { DEMO_ADMIN_STATS } from '../../utils/demoData.js';
 
 export default function AdminDashboard() {
-  const [stats, setStats] = useState(null);
+  // const [stats, setStats] = useState(null);
   // const [loading, setLoading] = useState(true);
   const [isDemo, setIsDemo] = useState(false);
 
