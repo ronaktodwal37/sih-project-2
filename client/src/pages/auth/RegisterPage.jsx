@@ -11,19 +11,19 @@ import Select from '../../components/ui/Select.jsx';
 import Button from '../../components/ui/Button.jsx';
 import Card from '../../components/ui/Card.jsx';
 
-// const schema = z.object({
-//   name: z.string().min(2, 'Name must be at least 2 characters'),
-//   email: z.string().email('Invalid email address'),
-//   password: z
-//     .string()
-//     .min(8, 'Password must be at least 8 characters')
-//     .regex(/[A-Z]/, 'Must contain uppercase letter')
-//     .regex(/[a-z]/, 'Must contain lowercase letter')
-//     .regex(/[0-9]/, 'Must contain a number'),
-//   role: z.enum(['citizen', 'university', 'faculty', 'student', 'industry']),
-//   district: z.string().optional(),
-//   organization: z.string().optional(),
-// });
+const schema = z.object({
+  name: z.string().min(2, 'Name must be at least 2 characters'),
+  email: z.string().email('Invalid email address'),
+  password: z
+    .string()
+    .min(8, 'Password must be at least 8 characters')
+    .regex(/[A-Z]/, 'Must contain uppercase letter')
+    .regex(/[a-z]/, 'Must contain lowercase letter')
+    .regex(/[0-9]/, 'Must contain a number'),
+  role: z.enum(['citizen', 'university', 'faculty', 'student', 'industry']),
+  district: z.string().optional(),
+  organization: z.string().optional(),
+});
 
 // const roleOptions = [
   // { value: ROLES.CITIZEN, label: 'Citizen' },
