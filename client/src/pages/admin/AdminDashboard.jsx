@@ -43,7 +43,7 @@ export default function AdminDashboard() {
         <StatCard label="Total Users" value={stats?.totalUsers} icon={Users} />
         <StatCard label="Total Challenges" value={stats?.totalChallenges} icon={FileText} />
         <StatCard label="Total Projects" value={stats?.totalProjects} icon={FolderKanban} />
-        {/* <StatCard label="Active Sessions" value="12" icon={Activity} /> */}
+        <StatCard label="Active Sessions" value="12" icon={Activity} />
       </div>
 
       <div className="grid lg:grid-cols-2 gap-6">
