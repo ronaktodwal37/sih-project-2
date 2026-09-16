@@ -26,9 +26,9 @@ export default function LoginPage() {
 
   const onSubmit = async (data) => {
     setError('');
-    // try {
-    //   await login(data);
-      // const from = location.state?.from?.pathname;
+    try {
+      await login(data);
+      const from = location.state?.from?.pathname;
       navigate(from || getDashboardPath(), { replace: true });
     } catch (err) {
       setError(err.message || 'Invalid email or password');
