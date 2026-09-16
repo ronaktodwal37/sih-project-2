@@ -51,7 +51,7 @@ export default function AdminDashboard() {
           <ul className="space-y-2">
             {stats?.usersByRole?.map((r) => (
               <li key={r.role} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                {/* <span className="text-sm font-medium text-gray-700">{r.role}</span> */}
+                <span className="text-sm font-medium text-gray-700">{r.role}</span>
                 {/* <span className="text-sm font-bold text-primary-500">{r.count}</span> */}
               </li>
             ))}
